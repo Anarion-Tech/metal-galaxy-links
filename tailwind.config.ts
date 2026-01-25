@@ -59,8 +59,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        serif: ['Playfair Display', 'serif'],
+        sans: ['Oswald', 'system-ui', 'sans-serif'],
+        metal: ['Metal Mania', 'cursive'],
       },
       borderRadius: {
         lg: "var(--radius)",
