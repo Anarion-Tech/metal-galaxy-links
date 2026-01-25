@@ -64,11 +64,11 @@ const links = [
 
 const Index = () => {
   return (
-    <div className="min-h-screen py-12 px-4">
-      <div className="max-w-md mx-auto">
+    <div className="min-h-screen py-12 px-4 relative">
+      <div className="max-w-md mx-auto relative z-10">
         <ProfileHeader
           name="Votre Nom"
-          bio="Créateur de contenu passionné · Développeur · Explorateur du monde numérique ✨"
+          bio="🤘 Créateur · Développeur · Passionné de Metal 🤘"
         />
 
         <div className="mt-10 space-y-3">
@@ -84,9 +84,9 @@ const Index = () => {
           ))}
         </div>
 
-        <footer className="mt-12 text-center animate-fade-up" style={{ animationDelay: "600ms" }}>
-          <p className="text-sm text-muted-foreground">
-            Fait avec <span className="text-primary">♥</span>
+        <footer className="mt-12 text-center animate-fade-up relative z-10" style={{ animationDelay: "600ms" }}>
+          <p className="text-sm text-muted-foreground uppercase tracking-widest">
+            Forgé avec <span className="text-primary">🔥</span>
           </p>
         </footer>
       </div>
