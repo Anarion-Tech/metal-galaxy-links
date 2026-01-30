@@ -80,19 +80,18 @@ const Index = () => {
         <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       </div>
 
-      <div className="max-w-2xl mx-auto relative z-10">
-        {/* Bento Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[140px]">
-          {/* Profile Card - spans 2 columns */}
-          <div className="col-span-2 md:col-span-2">
-            <ProfileBento
-              name="Votre Nom"
-              bio="🤘 Créateur · Développeur · Passionné de Metal 🤘"
-              avatarUrl={logo}
-            />
-          </div>
+      <div className="max-w-md mx-auto relative z-10">
+        {/* Profile Card */}
+        <div className="mb-6 h-[140px]">
+          <ProfileBento
+            name="Votre Nom"
+            bio="🤘 Créateur · Développeur · Passionné de Metal 🤘"
+            avatarUrl={logo}
+          />
+        </div>
 
-          {/* Link Cards */}
+        {/* Link Cards - Vertical List */}
+        <div className="flex flex-col gap-4">
           {links.map((link, index) => (
             <BentoCard
               key={link.title}
@@ -100,7 +99,7 @@ const Index = () => {
               icon={link.icon}
               title={link.title}
               description={link.description}
-              size={link.size}
+              size="large"
               delay={100 + index * 50}
             />
           ))}
