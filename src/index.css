@@ -68,7 +68,7 @@
   }
 
   h1, h2, h3 {
-    font-family: 'Metal Mania', cursive;
+    font-family: 'Oswald', system-ui, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
