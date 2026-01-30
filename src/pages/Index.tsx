@@ -127,6 +127,9 @@ const Index = () => {
               Metal Galaxy
             </a>
           </p>
+          <p className="text-xs text-muted-foreground mt-2">
+            © {new Date().getFullYear()} Tous droits réservés
+          </p>
         </footer>
       </div>
     </div>
