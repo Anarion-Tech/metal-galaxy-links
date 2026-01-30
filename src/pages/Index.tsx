@@ -13,54 +13,54 @@ import {
 } from "lucide-react";
 
 const links = [
+  // {
+  //   href: "https://instagram.com",
+  //   icon: Instagram,
+  //   title: "Instagram",
+  //   description: "Suivez mes aventures quotidiennes",
+  //   size: "small" as const,
+  // },
+  // {
+  //   href: "https://twitter.com",
+  //   icon: Twitter,
+  //   title: "Twitter / X",
+  //   description: "Mes pensées et actualités",
+  //   size: "small" as const,
+  // },
+  // {
+  //   href: "https://youtube.com",
+  //   icon: Youtube,
+  //   title: "YouTube",
+  //   description: "Vidéos et tutoriels",
+  //   size: "large" as const,
+  // },
+  // {
+  //   href: "https://linkedin.com",
+  //   icon: Linkedin,
+  //   title: "LinkedIn",
+  //   description: "Mon parcours professionnel",
+  //   size: "small" as const,
+  // },
+  // {
+  //   href: "https://github.com",
+  //   icon: Github,
+  //   title: "GitHub",
+  //   description: "Mes projets open source",
+  //   size: "small" as const,
+  // },
+  // {
+  //   href: "https://spotify.com",
+  //   icon: Music,
+  //   title: "Spotify",
+  //   description: "Ma playlist du moment",
+  //   size: "small" as const,
+  // },
   {
-    href: "https://instagram.com",
-    icon: Instagram,
-    title: "Instagram",
-    description: "Suivez mes aventures quotidiennes",
-    size: "small" as const,
-  },
-  {
-    href: "https://twitter.com",
-    icon: Twitter,
-    title: "Twitter / X",
-    description: "Mes pensées et actualités",
-    size: "small" as const,
-  },
-  {
-    href: "https://youtube.com",
-    icon: Youtube,
-    title: "YouTube",
-    description: "Vidéos et tutoriels",
-    size: "large" as const,
-  },
-  {
-    href: "https://linkedin.com",
-    icon: Linkedin,
-    title: "LinkedIn",
-    description: "Mon parcours professionnel",
-    size: "small" as const,
-  },
-  {
-    href: "https://github.com",
-    icon: Github,
-    title: "GitHub",
-    description: "Mes projets open source",
-    size: "small" as const,
-  },
-  {
-    href: "https://spotify.com",
-    icon: Music,
-    title: "Spotify",
-    description: "Ma playlist du moment",
-    size: "small" as const,
-  },
-  {
-    href: "https://example.com",
-    icon: Globe,
-    title: "Mon Site",
+    href: "https://metal-galaxy.net",
+    icon: Mail,
+    title: "Newsletter",
     description: "Portfolio et blog personnel",
-    size: "small" as const,
+    size: "large" as const,
   },
   {
     href: "mailto:contact@example.com",
@@ -106,7 +106,10 @@ const Index = () => {
           ))}
         </div>
 
-        <footer className="mt-8 text-center animate-fade-up relative z-10" style={{ animationDelay: "600ms" }}>
+        <footer
+          className="mt-8 text-center animate-fade-up relative z-10"
+          style={{ animationDelay: "600ms" }}
+        >
           <p className="text-sm text-muted-foreground uppercase tracking-widest">
             Forgé avec <span className="text-primary">🔥</span>
           </p>
