@@ -1,5 +1,6 @@
 import ProfileBento from "@/components/ProfileBento";
 import BentoCard from "@/components/BentoCard";
+import logo from "@/assets/logo.png";
 import {
   Instagram,
   Twitter,
@@ -87,6 +88,7 @@ const Index = () => {
             <ProfileBento
               name="Votre Nom"
               bio="🤘 Créateur · Développeur · Passionné de Metal 🤘"
+              avatarUrl={logo}
             />
           </div>
 
