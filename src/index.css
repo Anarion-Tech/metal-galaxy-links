@@ -15,7 +15,7 @@
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 0 85% 45%;
+    --primary: 9 67% 42%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 12%;
@@ -24,7 +24,7 @@
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 55%;
 
-    --accent: 0 100% 30%;
+    --accent: 9 80% 30%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -32,17 +32,17 @@
 
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 0 85% 45%;
+    --ring: 9 67% 42%;
 
     --radius: 0.25rem;
 
     /* Metal theme tokens */
-    --gradient-bg: linear-gradient(180deg, hsl(0 0% 3%) 0%, hsl(0 0% 8%) 50%, hsl(0 5% 5%) 100%);
+    --gradient-bg: linear-gradient(180deg, hsl(0 0% 3%) 0%, hsl(0 0% 8%) 50%, hsl(9 10% 5%) 100%);
     --gradient-card: linear-gradient(135deg, hsla(0, 0%, 10%, 0.9) 0%, hsla(0, 0%, 5%, 0.95) 100%);
-    --gradient-primary: linear-gradient(135deg, hsl(0 85% 45%) 0%, hsl(0 100% 25%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(9 67% 42%) 0%, hsl(9 80% 25%) 100%);
     --shadow-card: 0 4px 20px -4px hsla(0, 0%, 0%, 0.5);
-    --shadow-card-hover: 0 8px 30px -4px hsla(0, 85%, 45%, 0.3);
-    --shadow-glow: 0 0 50px -10px hsl(0 85% 45% / 0.5);
+    --shadow-card-hover: 0 8px 30px -4px hsla(9, 67%, 42%, 0.3);
+    --shadow-glow: 0 0 50px -10px hsl(9 67% 42% / 0.5);
     --texture-noise: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
   }
 }
@@ -79,7 +79,7 @@
 @layer components {
   .glass-card {
     background: var(--gradient-card);
-    border: 1px solid hsla(0, 85%, 45%, 0.2);
+    border: 1px solid hsla(9, 67%, 42%, 0.2);
     position: relative;
   }
 
@@ -88,7 +88,7 @@
     position: absolute;
     inset: 0;
     border-radius: inherit;
-    background: linear-gradient(180deg, hsla(0, 85%, 45%, 0.1) 0%, transparent 100%);
+    background: linear-gradient(180deg, hsla(9, 67%, 42%, 0.1) 0%, transparent 100%);
     pointer-events: none;
   }
 
@@ -114,7 +114,7 @@
 
   .avatar-glow {
     box-shadow: var(--shadow-glow);
-    border: 3px solid hsl(0 85% 45%);
+    border: 3px solid hsl(9 67% 42%);
   }
 
   .animate-float {
@@ -162,7 +162,7 @@
     transform: translateX(-50%);
     width: 4px;
     height: 12px;
-    background: hsl(0 85% 45%);
+    background: hsl(9 67% 42%);
     border-radius: 0 0 50% 50%;
     animation: drip 3s ease-in-out infinite;
   }
