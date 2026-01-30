@@ -63,7 +63,7 @@ const links = [
     size: "large" as const,
   },
   {
-    href: "mailto:contact@example.com",
+    href: "mailto:contact@metal-galaxy.net",
     icon: Mail,
     title: "Contact",
     description: "Envoyez-moi un message",
