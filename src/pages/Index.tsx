@@ -59,14 +59,14 @@ const links = [
     href: "https://metal-galaxy.net",
     icon: Mail,
     title: "Newsletter",
-    description: "Portfolio et blog personnel",
+    description: "reste au courant de ce qui arrive",
     size: "large" as const,
   },
   {
     href: "mailto:contact@metal-galaxy.net",
     icon: Mail,
     title: "Contact",
-    description: "Envoyez-moi un message",
+    description: "Envoye-moi un message",
     size: "large" as const,
   },
 ];
@@ -110,7 +110,22 @@ const Index = () => {
           style={{ animationDelay: "600ms" }}
         >
           <p className="text-sm text-muted-foreground uppercase tracking-widest">
-            Forgé avec <span className="text-primary">🔥</span>
+            Par{" "}
+            <a
+              href="https://anarion.tech"
+              target="_blank"
+              className="text-primary"
+            >
+              Anarion
+            </a>
+            <span className="mx-1">•</span>
+            <a
+              href="https://metal-galaxy.net"
+              target="_blank"
+              className="text-primary"
+            >
+              Metal Galaxy
+            </a>
           </p>
         </footer>
       </div>
