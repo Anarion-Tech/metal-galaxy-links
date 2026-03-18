@@ -58,16 +58,16 @@ const links = [
   // {
   {
     href: "https://beta.metal-galaxy.net",
-    icon: Mail,
-    title: "Newsletter",
-    description: "Reste au courant de ce qui arrive",
+    icon: Music,
+    title: "Beta",
+    description: "Test Metal Galaxy en Beta",
     size: "large" as const,
   },
   {
     href: "https://metal-galaxy.net",
-    icon: Music,
-    title: "Beta",
-    description: "Test Metal Galaxy en Beta",
+    icon: Mail,
+    title: "Newsletter",
+    description: "Reste au courant de ce qui arrive",
     size: "large" as const,
   },
   {
