@@ -14,13 +14,6 @@ import {
 
 const links = [
   // {
-  //   href: "https://instagram.com",
-  //   icon: Instagram,
-  //   title: "Instagram",
-  //   description: "Suivez mes aventures quotidiennes",
-  //   size: "small" as const,
-  // },
-  // {
   //   href: "https://twitter.com",
   //   icon: Twitter,
   //   title: "Twitter / X",
@@ -60,8 +53,15 @@ const links = [
     href: "https://beta.metal-galaxy.net",
     icon: Music,
     title: "Beta",
-    description: "Test Metal Galaxy en Beta",
+    description: "Teste Metal Galaxy en Beta",
     size: "large" as const,
+  },
+  {
+    href: "https://www.instagram.com/metalgalaxyapp",
+    icon: Instagram,
+    title: "Instagram",
+    description: "",
+    size: "small" as const,
   },
   {
     href: "https://metal-galaxy.net",
