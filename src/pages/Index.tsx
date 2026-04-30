@@ -63,13 +63,13 @@ const links = [
     description: "",
     size: "small" as const,
   },
-  {
-    href: "https://metal-galaxy.net",
-    icon: Mail,
-    title: "Newsletter",
-    description: "Reste au courant de ce qui arrive",
-    size: "large" as const,
-  },
+  // {
+  //   href: "https://metal-galaxy.net",
+  //   icon: Mail,
+  //   title: "Newsletter",
+  //   description: "Reste au courant de ce qui arrive",
+  //   size: "large" as const,
+  // },
   {
     href: "mailto:contact@metal-galaxy.net",
     icon: Mail,
