@@ -74,7 +74,7 @@ const links = [
     href: "mailto:contact@metal-galaxy.net",
     icon: Mail,
     title: "Contact",
-    description: "Une idée, une sugestion, une question ?",
+    description: "Une idée, une suggestion, une question ?",
     size: "large" as const,
   },
 ];
