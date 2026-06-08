@@ -13,47 +13,11 @@ import {
 } from "lucide-react";
 
 const links = [
-  // {
-  //   href: "https://twitter.com",
-  //   icon: Twitter,
-  //   title: "Twitter / X",
-  //   description: "Mes pensées et actualités",
-  //   size: "small" as const,
-  // },
-  // {
-  //   href: "https://youtube.com",
-  //   icon: Youtube,
-  //   title: "YouTube",
-  //   description: "Vidéos et tutoriels",
-  //   size: "large" as const,
-  // },
-  // {
-  //   href: "https://linkedin.com",
-  //   icon: Linkedin,
-  //   title: "LinkedIn",
-  //   description: "Mon parcours professionnel",
-  //   size: "small" as const,
-  // },
-  // {
-  //   href: "https://github.com",
-  //   icon: Github,
-  //   title: "GitHub",
-  //   description: "Mes projets open source",
-  //   size: "small" as const,
-  // },
-  // {
-  //   href: "https://spotify.com",
-  //   icon: Music,
-  //   title: "Spotify",
-  //   description: "Ma playlist du moment",
-  //   size: "small" as const,
-  // },
-  // {
   {
-    href: "https://beta.metal-galaxy.net",
+    href: "https://metal-galaxy.net",
     icon: Music,
-    title: "Beta",
-    description: "Teste Metal Galaxy en Beta",
+    title: "Metal Galaxy",
+    description: "Viens trouver tes prochains concerts",
     size: "large" as const,
   },
   {
@@ -63,13 +27,7 @@ const links = [
     description: "",
     size: "small" as const,
   },
-  // {
-  //   href: "https://metal-galaxy.net",
-  //   icon: Mail,
-  //   title: "Newsletter",
-  //   description: "Reste au courant de ce qui arrive",
-  //   size: "large" as const,
-  // },
+
   {
     href: "mailto:contact@metal-galaxy.net",
     icon: Mail,
